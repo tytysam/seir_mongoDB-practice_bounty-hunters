@@ -129,9 +129,9 @@ Now insert a few more bounties. Remember to convert these to JSON:
 ## Read/Query
 
 - Do a query to see all the bounties
-- Do a query to find the bounty whose client is `Time Bureau`
-- Do a query to find the bounties who have been `captured`
-- Do a query specific to the bounty you inserted
+- Do a query to find the bounty whose client is `Time Bureau` --- hungry for more ---
+- Do a query to find the bounties who have been `captured` --- hungry for more ----
+- Do a query specific to the bounty you inserted --- hungry for more ----
 
 ## Remove
 
@@ -143,7 +143,7 @@ Update `Sara Lance`'s name to be her superhero alias 'White Canary'
 
 Update Rocket's ship to be `The Milano 2`
 
-### Intermediate Mongo
+### Intermediate Mongo --- hungry for more -----
 Load up the [Query Operators quick reference](https://docs.mongodb.com/manual/reference/operator/query/) from the MongoDB docs.
 
 - Find the bounties that are greater than `100000`

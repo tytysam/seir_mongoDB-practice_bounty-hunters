@@ -12,9 +12,27 @@ The shadowy stranger greets you and says 'Welcome to your new job! You are now o
 
 You look around, notice some high end coffee and tea machines, an air hockey table, nap rooms and floor to ceiling windows with a view of outer space. The shadowy stranger takes you to your desk which has a fancy sit-to stand adjustable hight desk with a swing bar, two big monitors, and Herman Miller chair. You say to yourself 'Not bad! Not bad at all!'
 
-## Set up
+## Set up Just like we did in class with Mongoose
 
-Open up your [MongoDB Atlas console](https://www.mongodb.com/cloud/atlas).
+```
+const express = require('express');
+const app = express();
+const PORT = 3000;
+const MONGO_STRING = 'mongodb+srv://........';
+const mongoose = require('mongoose');
+
+mongoose.connect(MONGO_STRING, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+});
+
+mongoose.connection.once('open', ()=> {
+    console.log('Everything is Awesome');
+})
+
+```
+
+
 
 ```
 Create a database (sub-database technically) called hunters
